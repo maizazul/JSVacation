@@ -1,14 +1,14 @@
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
-    var duration = ($("input#age").val());
-    var environment = $("select#gender").val();
-    var type = $("").val();
-    var status = $("").val();
-    var language = $("").val();
+    var duration = $("select#duration").val();
+    var environment = $("select#environment").val();
+    var type = $("select#type").val();
+    var status = $("select#status").val();
+    var language = $("select#language").val();
 
-    var location = (100 - age) * 3;
-    if (gender === 'male' && age < 26) {
-      quote += 50;
+    var location = (duration + environment + type + status + language);
+    if (duration === '2week' && environment === 'nature' && type === 'adventure' && status === 'single' || status = 'couple' && language === 'english') {
+      spot = Tulum, Mexico;
     }
 
     $("#spot").text(location);
