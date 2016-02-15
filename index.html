@@ -21,6 +21,7 @@
     </div>
 
     <div class="container">
+      <form id="questions">
         <label for="environment">Do you prefer nature or the city?</label>
         <select id="environment">
           <option value="nature">Nature</option>
@@ -29,6 +30,7 @@
     </div>
 
     <div class="container">
+      <form id="questions">
         <label for="type">Do you prefer an adventure or to relax?</label>
         <select id="type">
           <option value="adventure">Adventure</option>
@@ -37,6 +39,7 @@
     </div>
 
     <div class="container">
+      <form id="questions">
         <label for="status">Will you be travelling solo or as a couple?</label>
         <select id="status">
           <option value="single">Single</option>
@@ -45,13 +48,21 @@
     </div>
 
     <div class="container">
-        <label for="status">Do you prefer a country where English is spoken?</label>
-        <select id="status">
+      <form id="questions">
+        <label for="language">Do you prefer a country where English is spoken?</label>
+        <select id="language">
           <option value="english">Yes</option>
           <option value="foreign">That's not necessary</option>
         </select>
     </div>
 
+  <div class="col-md-6 text-center">
+    <button type="submit" class="btn">Show me the story!</button>
+  </div>
+
+    <div id="location">
+            <p>Your ideal vacation spot is $<span id="spot"></span>! We suggest you plan to go immediately.</p>
+          </div>
 
   </body>
 </html>
