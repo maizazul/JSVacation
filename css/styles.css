@@ -28,6 +28,10 @@ h2 {
   margin-top: 40px;
 }
 
-#location {
+#tulum {
+  display: none;
+}
+
+#cairns {
   display: none;
 }
