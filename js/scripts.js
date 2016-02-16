@@ -7,8 +7,8 @@ $(document).ready(function() {
     var language = $("select#language").val();
 
     var location = (duration + environment + type + status + language);
-    if (duration === '2week' && environment === 'nature' && type === 'adventure' && status === 'single' || status = 'couple' && language === 'english') {
-      spot = Tulum, Mexico;
+    if ((duration = '2week') && (environment = 'nature') && (type = 'adventure') && (status = 'single' || 'couple') && (language = 'english')) {
+      location = "Tulum, Mexico";
     }
 
     $("#spot").text(location);
