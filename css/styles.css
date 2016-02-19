@@ -1,10 +1,27 @@
+
 body {
-  background-color: LightGrey;
+  background-color: LightBlue;
 }
+
+.jumbotron {
+  background-image: url("../img/cover.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 200px;
+
+}
+.jumbotron p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 60px;
 }
 
 h2 {
@@ -25,7 +42,15 @@ h2 {
 .btn {
   text-align: center;
   background-color: yellow;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+
 }
 
 #tulum {
@@ -33,5 +58,9 @@ h2 {
 }
 
 #cairns {
+  display: none;
+}
+
+#turkey {
   display: none;
 }

@@ -8,9 +8,14 @@
     <title>Vacation Planner</title>
   </head>
   <body>
-    <h1>Lets Plan a Vacation!</h1>
-    <h2>First, help us by answering a few questions about yourself.</h2>
+    <div class="jumbotron">
+      <div class="container">
+      <!-- <img src="img/cover.jpg"> -->
+      <p>Lets Plan a Vacation!</p>
+      </div>
+    </div>
 
+    <h1>First, please answer these questions.</h1>
     <form id="questions">
       <div class="container">
           <label for="duration">How long do you wish your vacation to be?</label>
@@ -52,18 +57,29 @@
           </select>
       </div>
 
-      <div class="col-md-6 text-center">
-        <button type="submit" class="btn">Show me my spot!</button>
+      <div class="container"
+        <div class="row"
+          <div class="col-md-6 text-center">
+            <button type="submit" class="btn">Show me my spot!</button>
+          </div>
+        </div>
       </div>
     </form>
 
-    <div id="tulum">
-      <p>Your ideal vacation spot is Tulum, Mexico! We suggest you plan to go immediately.</p>
-    </div>
+    <div class="container1">
+      <!-- <div class="container-fluid"> -->
+        <div id="tulum">
+          <p>Your ideal vacation spot is Tulum, Mexico! We suggest you plan to go immediately.</p>
+        </div>
 
-    <div id="cairns">
-      <p>Your ideal vacation spot is Cairns, Australia! We suggest you plan to go immediately.</p>
-    </div>
+        <div id="cairns">
+          <p>Your ideal vacation spot is Cairns, Australia! We suggest you plan to go immediately.</p>
+        </div>
 
+        <div id="turkey">
+          <p>Your ideal vacation spot is Istanbul, Turkey! We suggest you plan to go immediately.</p>
+        </div>
+      <!-- </div> -->
+    </div>
   </body>
 </html>
