@@ -41,11 +41,16 @@ h2 {
 
 .btn {
   text-align: center;
-  background-color: yellow;
+  background-color: green;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+#refresh {
+  background-color: yellow;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .container1{
   padding-top: 10px;
   padding-bottom: 10px;
