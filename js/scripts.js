@@ -8,15 +8,15 @@ $(document).ready(function() {
 
     var location = (duration + environment + type + status + language);
 
-    if ((duration === '2week') && (environment ==='nature') && (type === 'adventure') && (status === 'single') && (language === 'english')) {
+    if ((duration === '2week')) {
     $("#tulum").show();
     }
 
-    if ((duration === '>2week') && (environment === 'nature') && (type === 'adventure') && (status === 'couple') && (language === 'english')) {
+    if ((duration === '>2week') && (language === 'english')) {
     $("#cairns").show();
     }
 
-    if ((duration === '>2week') && (environment === 'nature') && (type === 'adventure') && (status === 'couple') && (language === 'foreign')) {
+    if ((duration === '>2week') && (language === 'foreign')) {
     $("#turkey").show();
     }
 
