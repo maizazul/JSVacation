@@ -49,8 +49,20 @@ h2 {
 .container1{
   padding-top: 10px;
   padding-bottom: 10px;
-  text-align: center;
+  /*text-align: center;*/
+}
 
+img {
+  /*width: 600px;
+  height: auto;*/
+  padding-right: 40px;
+  padding-left: 40px;
+  margin: auto;
+}
+
+
+p1 {
+  font-size: 40px;
 }
 
 #tulum {

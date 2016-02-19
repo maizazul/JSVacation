@@ -16,6 +16,10 @@ $(document).ready(function() {
     $("#cairns").show();
     }
 
+    if ((duration === '>2week') && (environment === 'nature') && (type === 'adventure') && (status === 'couple') && (language === 'foreign')) {
+    $("#turkey").show();
+    }
+
     event.preventDefault();
   });
 });
