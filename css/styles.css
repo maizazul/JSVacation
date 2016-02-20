@@ -67,7 +67,12 @@ img {
 
 
 p1 {
-  font-size: 40px;
+  font-size: 20px;
+}
+
+a{
+  font-size: 30px;
+  color: red;
 }
 
 #tulum {
